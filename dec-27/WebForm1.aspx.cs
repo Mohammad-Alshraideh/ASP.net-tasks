@@ -16,12 +16,22 @@ namespace dec_27
 
         protected void Group1Click(object sender, EventArgs e)
         {
-
+      
         }
 
         protected void Group2Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+        
         }
     }
 }
